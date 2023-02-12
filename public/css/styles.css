@@ -1,0 +1,139 @@
+body{
+  text-align: center;
+  padding-top: 40px;
+}
+h2{
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: monospace;
+}
+h5{
+  color: white;
+  font-weight: 400;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 18px;
+}
+.navbar {
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+.navbar a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+}
+.logo {
+    margin-right: 50px;
+}
+.list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+#toggler,
+.navbar label {
+    display: none;
+}
+
+
+.wrapper{
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  display: flex;
+  align: left;
+  margin: 30px 17%;
+  text-align: center;
+}
+.img1{
+  height: 500px;
+  width:auto;
+  padding: 0;
+}
+.img2{
+  width: 450px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.typing{
+  color: white;
+  width: 22ch;
+  animation: typing 2s steps(20), blink .5s step-end infinite alternate;
+  border-right: 5px solid;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 2rem;
+  padding: 0;
+}
+
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+@keyframes blink {
+  50% {
+  border-color: transparent
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+  }
+  .list {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+  }
+  .navbar label {
+      display: inline-flex;
+      align-items: center;
+      cursor: pointer;
+  }
+  #toggler:checked ~ .menu {
+      max-height: 100%;
+  }
+
+  .img1{
+    height: 400px;
+  }
+  .img2{
+    width: 320px;
+  }
+  .wrapper{
+    margin: 15px 5%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .img1{
+    height: 500px;
+  }
+  .wrapper{
+    margin: 30px 10%%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .img1{
+    height: 600px;
+  }
+  .wrapper{
+    margin: 30px 23%;
+  }
+}
