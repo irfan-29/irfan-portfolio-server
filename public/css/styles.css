@@ -1,6 +1,7 @@
 body{
   text-align: center;
-  padding-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 h2{
   color: white;
@@ -52,12 +53,14 @@ h5{
   place-items: center;
   display: flex;
   align: left;
-  margin: 30px 17%;
+  margin: 35px 17%;
+  padding-top: 25px;
   text-align: center;
 }
 .img1{
   height: 500px;
   width:auto;
+  margin: 0;
   padding: 0;
 }
 .img2{
@@ -117,7 +120,8 @@ h5{
     width: 280px;
   }
   .wrapper{
-    margin: 15px 5%;
+    margin: 0 5%;
+    max-height: 400px;
   }
 }
 @media only screen and (min-width: 600px) {
@@ -125,7 +129,8 @@ h5{
     height: 400px;
   }
   .wrapper{
-    margin: 30px 10%%;
+    margin: 0 10%;
+    max-height: 500px;
   }
 }
 
@@ -134,6 +139,7 @@ h5{
     height: 500px;
   }
   .wrapper{
-    margin: 30px 23%;
+    margin: 0 25.5%;
+    max-height: 550px;
   }
 }
