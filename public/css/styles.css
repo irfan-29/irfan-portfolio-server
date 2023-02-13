@@ -20,9 +20,8 @@ a{
 .navbar a:hover, a:hover, h2:hover{
   color: #ff4c68;
 }
-/* a:hover{
-  color: #ff4c68;
-} */
+
+
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -75,6 +74,10 @@ a{
   padding: 0;
 }
 .img2{
+  width: 420px;
+  height: auto;
+}
+.img3{
   width: 450px;
   height: auto;
   padding: 0;
@@ -131,26 +134,39 @@ a{
     height: 300px;
   }
   .img2{
+    width: 250px;
+  }
+  .img3{
     width: 280px;
   }
   .wrapper{
     margin: 0 3.5%;
     max-height: 400px;
   }
-  .abt{
+  .abt, .tech{
     margin: 0 3.5%;
+  }
+  .tech-1{
+    padding-top: 30px;
   }
 }
 @media only screen and (min-width: 600px) {
+
   .img1{
     height: 400px;
+  }
+  .img2{
+    width: 350px;
   }
   .wrapper{
     margin: 0 10%;
     max-height: 500px;
   }
-  .abt{
+  .abt, .tech{
     margin: 0 7%;
+  }
+  .tech-1{
+    padding-top: 60px;
   }
 }
 
@@ -158,15 +174,21 @@ a{
   .img1{
     height: 500px;
   }
+  .img2{
+    width: 420px;
+  }
   .wrapper{
     margin: 0 25%;
     max-height: 550px;
   }
-  .abt{
+  .abt, .tech{
     margin: 0 15%;
   }
   .abt-2{
     position: relative;
-    top: 100px;
+    top: 120px;
+  }
+  .tech-1{
+    padding-top: 160px;
   }
 }
