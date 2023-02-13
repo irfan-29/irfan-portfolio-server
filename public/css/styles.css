@@ -13,6 +13,16 @@ h5{
   color: white;
   font-weight: 400;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+.navbar a:hover, a:hover, h2:hover{
+  color: #ff4c68;
+}
+/* a:hover{
+  color: #ff4c68;
+} */
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -33,6 +43,7 @@ h5{
     font-weight: 400;
     color: #fff;
 }
+
 .logo {
     margin-right: 50px;
 }
@@ -93,6 +104,9 @@ h5{
 }
 }
 
+
+
+
 @media only screen and (max-width: 600px) {
   .menu {
       width: 100%;
@@ -120,8 +134,11 @@ h5{
     width: 280px;
   }
   .wrapper{
-    margin: 0 5%;
+    margin: 0 3.5%;
     max-height: 400px;
+  }
+  .abt{
+    margin: 0 3.5%;
   }
 }
 @media only screen and (min-width: 600px) {
@@ -132,6 +149,9 @@ h5{
     margin: 0 10%;
     max-height: 500px;
   }
+  .abt{
+    margin: 0 7%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -139,7 +159,14 @@ h5{
     height: 500px;
   }
   .wrapper{
-    margin: 0 25.5%;
+    margin: 0 25%;
     max-height: 550px;
+  }
+  .abt{
+    margin: 0 15%;
+  }
+  .abt-2{
+    position: relative;
+    top: 100px;
   }
 }
