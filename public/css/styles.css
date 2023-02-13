@@ -74,7 +74,7 @@ h5{
   white-space: nowrap;
   overflow: hidden;
   font-family: monospace;
-  font-size: 2rem;
+  font-size: 1.9rem;
   padding: 0;
 }
 
@@ -111,10 +111,10 @@ h5{
   }
 
   .img1{
-    height: 400px;
+    height: 300px;
   }
   .img2{
-    width: 320px;
+    width: 280px;
   }
   .wrapper{
     margin: 15px 5%;
@@ -122,7 +122,7 @@ h5{
 }
 @media only screen and (min-width: 600px) {
   .img1{
-    height: 500px;
+    height: 400px;
   }
   .wrapper{
     margin: 30px 10%%;
@@ -131,7 +131,7 @@ h5{
 
 @media only screen and (min-width: 1200px) {
   .img1{
-    height: 600px;
+    height: 500px;
   }
   .wrapper{
     margin: 30px 23%;
