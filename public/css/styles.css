@@ -143,7 +143,7 @@ a{
     margin: 0 3.5%;
     max-height: 400px;
   }
-  .abt, .tech{
+  .abt, .tech, .pro{
     margin: 0 3.5%;
   }
   .tech-1{
@@ -162,7 +162,7 @@ a{
     margin: 0 10%;
     max-height: 500px;
   }
-  .abt, .tech{
+  .abt, .tech, .pro{
     margin: 0 7%;
   }
   .tech-1{
@@ -181,7 +181,7 @@ a{
     margin: 0 25%;
     max-height: 550px;
   }
-  .abt, .tech{
+  .abt, .tech, .pro{
     margin: 0 15%;
   }
   .abt-2{
