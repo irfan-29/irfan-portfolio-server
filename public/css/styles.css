@@ -1,3 +1,4 @@
+
 body{
   text-align: center;
   padding-top: 20px;
@@ -5,7 +6,7 @@ body{
 }
 h2{
   color: white;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 2rem;
   font-family: monospace;
 }
@@ -20,8 +21,30 @@ a{
 .navbar a:hover, a:hover, h2:hover{
   color: #ff4c68;
 }
+.card{
+  text-align: center;
+  margin: 12%;
+  background-color: #353535;
+}
+.card-img-top{
+  width: 180px;
+  margin: 16%;
+  padding: 0;
+}
+.card-title{
+  font-weight: 700;
+  color: white;
+}
+.card-text{
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+}
 
-
+.col{
+  margin-bottom: 6%;
+  padding: 0;
+}
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -143,8 +166,18 @@ a{
     margin: 0 3.5%;
     max-height: 400px;
   }
-  .abt, .tech, .pro{
+  .abt, .tech{
     margin: 0 3.5%;
+  }
+  .pro{
+    margin: 0 1.5%;
+  }
+  .card-img-top{
+    width: 160px;
+    margin: 18%;
+  }
+  .card-text{
+    max-height: 40px;
   }
   .tech-1{
     padding-top: 30px;
@@ -162,8 +195,18 @@ a{
     margin: 0 10%;
     max-height: 500px;
   }
-  .abt, .tech, .pro{
+  .abt, .tech{
     margin: 0 7%;
+  }
+  .pro{
+    margin: 0 17%;
+  }
+  .card-img-top{
+    width: 200px;
+    margin: 23%;
+  }
+  .card-text{
+    max-height: 0px;
   }
   .tech-1{
     padding-top: 60px;
@@ -181,8 +224,18 @@ a{
     margin: 0 25%;
     max-height: 550px;
   }
-  .abt, .tech, .pro{
+  .abt, .tech{
     margin: 0 15%;
+  }
+  .pro{
+    margin: 0 11%;
+  }
+  .card-img-top{
+    width: 190px;
+    margin: 18%;;
+  }
+  .card-text{
+    max-height: 10px;
   }
   .abt-2{
     position: relative;
