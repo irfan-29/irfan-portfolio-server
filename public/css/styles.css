@@ -14,6 +14,7 @@
 .pro-img{
   width: 190px;
   padding: 25px;
+  filter: drop-shadow(10px 10px 7px #0c1012);
 }
 .pro-title{
   font-weight: 700;
