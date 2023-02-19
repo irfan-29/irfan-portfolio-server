@@ -52,7 +52,7 @@ a{
   text-decoration: none;
   color: white;
 }
-.navbar a:hover, a:hover, h2:hover{
+.navbar a:hover, a:hover, h2:hover, .pro-title:hover{
   color: #ff4c68;
 }
 .card{
