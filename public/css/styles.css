@@ -1,3 +1,37 @@
+.pro{
+  justify-content: center;
+}
+.prog{
+  width: 280px;
+  height: 410px;
+  text-align: center;
+  padding: 20px;
+  margin: 40px;;
+  border-radius: 15px;
+  background-color: #353535;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.pro-img{
+  width: 190px;
+  padding: 25px;
+}
+.pro-title{
+  font-weight: 700;
+  padding: 17px 10px 4px 10px;
+  color: white;
+}
+.pro-text{
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: white;
+}
+
+
+
+
+
+
+
 
 body{
   text-align: center;
@@ -170,7 +204,7 @@ a{
     margin: 0 3.5%;
   }
   .pro{
-    margin: 0 1.25%;
+    margin: 0 1.5%;
   }
   .card-img-top{
     width: 160px;
@@ -199,7 +233,7 @@ a{
     margin: 0 7%;
   }
   .pro{
-    margin: 0 17%;
+    margin: 0 13%;
   }
   .card-img-top{
     width: 200px;
