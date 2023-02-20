@@ -10,6 +10,19 @@
   border-radius: 15px;
   background-color: #353535;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  position: relative;
+  bottom: 38px;
+  right: 78px;
+}
+.prog-layer{
+  width: 280px;
+  height: 410px;
+  text-align: center;
+  padding: 20px;
+  margin: 40px;;
+  border-radius: 15px;
+  background-color: #353535;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .pro-img{
   width: 190px;
