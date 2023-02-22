@@ -4,7 +4,6 @@
   position: relative;
   left: 5px;
 }
-
 :root {
   --primary-color: #202020;
   --secondary-color: #353535;
@@ -13,7 +12,6 @@
   --fifth-color: rgba(255, 255, 255, 0.4);
   --sixth-color: black;
 }
-
 .dark-theme {
   --primary-color: white;
   --secondary-color: white;
@@ -70,9 +68,6 @@ i{
   font-size: 1.15rem;
   color: var(--tertiary-color);
 }
-
-
-
 .project-detail{
   justify-content: center;
   padding-top: 40px;
@@ -87,7 +82,6 @@ i{
   border-radius: 15px;
   background: var(--secondary-color);
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-
   transform:
     perspective(800px)
     rotateY(25deg) scale(0.9)
@@ -103,8 +97,8 @@ i{
       translateY(-50px)
       rotateX(10deg)
       scale(1);
-    filter: blur(0);
-    opacity: 1;
+  filter: blur(0);
+  opacity: 1;
 }
 .project-layer{
   width: 320px;
@@ -136,9 +130,6 @@ i{
   margin: 20px;
 }
 
-
-
-
 body{
   background: var(--primary-color);
   text-align: center;
@@ -161,25 +152,6 @@ a{
 }
 .navbar a:hover, a:hover, h2:hover, .pro-title:hover{
   color: #ff4c68;
-}
-.card{
-  text-align: center;
-  margin: 12%;
-  background-color: #fff;
-}
-.card-img-top{
-  width: 180px;
-  margin: 16%;
-  padding: 0;
-}
-.card-title{
-  font-weight: 700;
-  color: black;
-}
-.card-text{
-  font-weight: 400;
-  font-size: 1.1rem;
-  color: black;
 }
 
 .col{
@@ -316,13 +288,6 @@ a{
   .pro, .project-detail{
     margin: 0 1.5%;
   }
-  .card-img-top{
-    width: 160px;
-    margin-left: 19.5%;
-  }
-  .card-text{
-    max-height: 40px;
-  }
   .tech-1, .project-1{
     padding-top: 30px;
   }
@@ -345,13 +310,6 @@ a{
   .pro, .project-detail{
     margin: 0 13%;
   }
-  .card-img-top{
-    width: 200px;
-    margin: 23%;
-  }
-  .card-text{
-    max-height: 0px;
-  }
   .tech-1, .project-1{
     padding-top: 60px;
   }
@@ -373,13 +331,6 @@ a{
   }
   .pro, .project-detail{
     margin: 0 11%;
-  }
-  .card-img-top{
-    width: 190px;
-    margin: 18%;;
-  }
-  .card-text{
-    max-height: 0px;
   }
   .abt-2{
     position: relative;
