@@ -1,5 +1,5 @@
 #icon {
-  width: 28px;
+  width: 27px;
   cursor: pointer;
   position: relative;
   left: 5px;
@@ -257,6 +257,7 @@ a{
   overflow: hidden;
   font-family: monospace;
   font-size: 1.9rem;
+  font-weight: 500;
   padding: 0;
 }
 
