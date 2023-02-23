@@ -70,8 +70,8 @@ i{
 }
 .project-detail{
   justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 .project{
   width: 280px;
@@ -232,6 +232,14 @@ a{
   font-weight: 500;
   padding: 0;
 }
+.con{
+  justify-content: space-between;
+}
+.con-img{
+  padding-right: 6px;
+  padding-left: 6px;
+  width: 75px;
+}
 
 
 @keyframes typing {
@@ -285,7 +293,7 @@ a{
   .abt, .tech, .projects{
     margin: 0 3.5%;
   }
-  .pro, .project-detail{
+  .pro, .project-detail, .con{
     margin: 0 1.5%;
   }
   .tech-1, .project-1{
@@ -307,7 +315,7 @@ a{
   .abt, .tech, .projects{
     margin: 0 7%;
   }
-  .pro, .project-detail{
+  .pro, .project-detail, .con{
     margin: 0 13%;
   }
   .tech-1, .project-1{
@@ -331,6 +339,9 @@ a{
   }
   .pro, .project-detail{
     margin: 0 11%;
+  }
+  .con{
+    margin: 1% 17%;
   }
   .abt-2{
     position: relative;
