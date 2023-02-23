@@ -18,7 +18,7 @@
   <nav class="navbar container sticky-top bg-body-tertiary">
     <!-- <a href="#" class="logo"></a> -->
     <div style="display: flex; float: right;">
-      <img src="images/sun.png" id="icon">
+      <img title="Switch Theme" src="images/sun.png" id="icon">
     </div>
     <input type="checkbox" id="toggler" style="text-align: left;" />
     <label for="toggler"><i class="ri-menu-line"></i></label>
@@ -216,7 +216,6 @@
       <p><a class="contact-btn" href="mailto:umiappsofficial@gmail.com">CONTACT ME<img src="images/gmail.png" style="width: 20px; position: relative; left: 8px; bottom: 1.5px;"></a></p>
     </div>
 
-
     <footer>
       <div class="details">
         <p class="dett">©2023 umi apps</p>
@@ -225,6 +224,24 @@
     </footer>
   </section>
 
+  <button onclick="topFunction()" id="myBtn" title="Go to Top"><img src="images/arrow.png" style="width: 20px;"></button>
+
+  <script type="text/javascript">
+    let mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
