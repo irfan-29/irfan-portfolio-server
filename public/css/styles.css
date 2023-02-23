@@ -134,7 +134,6 @@ body{
   background: var(--primary-color);
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 h2{
   color: var(--tertiary-color);
@@ -240,7 +239,35 @@ a{
   padding-left: 6px;
   width: 75px;
 }
+.contact-btn {
+  background: var(--secondary-color);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  color: var(--tertiary-color);
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 10px 29px 10px 22px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  top: 35px;
+}
+.contact-btn:hover {
+  background-color: #ff4c68;
+  color: white;
+}
 
+footer{
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 20px 50px 4px;
+  background: var(--secondary-color);
+  margin-top: 70px;
+  margin-bottom: 0;
+  position: relative;
+  bottom: 0;
+  padding: 8px 0px 4px 0px ;
+}
+.dett{
+  color: var(--tertiary-color);
+}
 
 @keyframes typing {
   from {
