@@ -22,6 +22,27 @@
 }
 
 
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  color: var(--tertiary-color);
+  letter-spacing: -8px;
+  animation: flip 4s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg)
+  }
+}
+
+
+
+
+
 #myBtn {
   display: none;
   position: fixed;
@@ -176,7 +197,7 @@ body{
 h2{
   color: var(--tertiary-color);
   font-weight: 600;
-  font-size: 2.2rem;
+  font-size: 2.23rem;
   font-family: 'Poppins', sans-serif;
 }
 h5{
@@ -190,7 +211,7 @@ a{
   color: var(--tertiary-color);
   text-decoration: none;
 }
-.navbar a:hover, a:hover, h2:hover, .pro-title:hover, .name-hover:hover{
+.navbar a:hover, a:hover, h2:hover, .pro-title:hover, .name-hover:hover, .waviy span:hover{
   cursor: pointer;
   color: #ff4c68;
 }
@@ -250,6 +271,7 @@ a{
   filter: drop-shadow(10px 10px 7px #0c1012);
   margin: 0;
   padding: 0;
+  transform: rotate(6deg);
 }
 .img2{
   width: 420px;
@@ -386,6 +408,9 @@ footer{
   .wrapper{
     margin: 0 10%;
     max-height: 500px;
+  }
+  .abt-2{
+    padding-top: 30px;
   }
   .abt, .tech, .projects{
     margin: 0 7%;
