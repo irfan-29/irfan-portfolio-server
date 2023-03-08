@@ -30,7 +30,7 @@
   display: inline-block;
   color: var(--tertiary-color);
   letter-spacing: -8px;
-  animation: flip 4s infinite;
+  animation: flip 5s infinite;
   animation-delay: calc(.2s * var(--i))
 }
 @keyframes flip {
@@ -38,6 +38,8 @@
     transform: rotateY(360deg)
   }
 }
+
+
 
 
 
@@ -458,5 +460,17 @@ footer{
   }
   .project-2{
    padding-top: 190px;
+ }
+ #img1{
+   position: relative;
+   animation: MyDiv infinite;
+   animation-duration: 5s;
+   animation-timing-function: ease-in;
+   animation-direction: alternate;
+ }
+ @keyframes MyDiv {
+   0%   {left: 0px; top: 0px;}
+   50%   {left: 50px; bottom: 0px;}
+   100%  {left: 170%; top: 10px;}
  }
 }
