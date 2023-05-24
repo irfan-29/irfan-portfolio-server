@@ -112,6 +112,12 @@ i{
   padding: 25px;
   filter: drop-shadow(6px 6px 5px #0c1012);
 }
+.pro-url-img{
+  width:24px;
+  margin-left: 3px;
+  position: relative;
+  bottom: 1px;
+}
 .pro-title{
   font-weight: 900;
   padding: 17px 10px 4px 10px;
@@ -126,6 +132,7 @@ i{
   font-weight: 500;
 }
 .project-detail{
+  display: flex;
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -291,7 +298,7 @@ a{
   transform: rotate(6deg);
 }
 .img2{
-  width: 420px;
+  width: 380px;
   height: auto;
   filter: drop-shadow(10px 10px 7px #0c1012);
 }
@@ -448,7 +455,7 @@ footer{
     height: 420px;
   }
   .img2{
-    width: 420px;
+    width: 380px;
   }
   .wrapper{
     margin: 0 25%;
@@ -461,14 +468,14 @@ footer{
     margin: 0 15%;
   }
   .pro, .project-detail{
-    margin: 0 11%;
+    margin: 0 10%;
   }
   .con{
     margin: 1% 23%;
   }
   .abt-2{
     position: relative;
-    top: 120px;
+    top: 70px;
   }
   .tech-1{
     padding-top: 160px;
