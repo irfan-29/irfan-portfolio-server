@@ -329,6 +329,23 @@ a{
   padding-left: 6px;
   width: 75px;
 }
+.download-btn{
+  background: var(--secondary-color);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 22px 70px 4px;
+  /* color: var(--tertiary-color); */
+  color: black;
+  background-color: #ff4c68;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 10px 31px 10px 22px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  top: 18px;
+}
+.download-btn:hover{
+  color: black;
+}
 .contact-btn {
   background: var(--secondary-color);
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
@@ -408,6 +425,9 @@ footer{
   }
   .abt, .tech, .projects{
     margin: 0 3.5%;
+  }
+  .tech{
+    margin-top: 12%;
   }
   .top{
     margin: 0 1.5%;
