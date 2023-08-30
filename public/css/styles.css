@@ -1,8 +1,10 @@
 #icon {
   width: 27px;
+  height: 27px;
   cursor: pointer;
   position: relative;
-  left: 5px;
+  top: 8px;
+  left: 12px;
 }
 :root {
   --primary-color: #202020;
@@ -81,6 +83,7 @@ i{
 }
 .pro{
   justify-content: center;
+  overflow-y: scroll !important;
 }
 .prog{
   width: 280px;
@@ -247,7 +250,7 @@ a{
 .container {
     max-width: 960px;
     margin: 0 auto;
-    padding: 18px;
+    padding: 16px 18px;
 }
 .navbar {
     z-index: 1;
@@ -255,9 +258,10 @@ a{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    border-radius: 10px;
+    border-radius: 1px 1px 10px 10px;
     background: var(--forth-color);
     backdrop-filter: blur(4px);
+    box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 40px 2px;
 }
 .navbar a {
     text-decoration: none;
@@ -273,6 +277,8 @@ a{
     list-style: none;
     display: flex;
     gap: 25px;
+    position: relative;
+    top: 6px;
 }
 #toggler,
 .navbar label {
@@ -356,7 +362,7 @@ a{
   text-decoration: none;
   font-weight: bold;
   position: relative;
-  top: 35px;
+  top: 45px;
 }
 .contact-btn:hover {
   background-color: #ff4c68;
@@ -389,6 +395,13 @@ footer{
 
 
 @media only screen and (max-width: 600px) {
+  #icon{
+    position: relative;
+    left: 10px;
+  }
+  .container {
+    padding: 15px 12px;
+}
   .menu {
       width: 100%;
       max-height: 0;
