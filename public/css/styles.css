@@ -1,10 +1,10 @@
 #icon {
-  width: 27px;
-  height: 27px;
+  width: 22px;
+  height: 22px;
   cursor: pointer;
   position: relative;
-  top: 8px;
-  left: 12px;
+  top: 11px;
+  left: 15px;
 }
 :root {
   --primary-color: #202020;
@@ -396,7 +396,7 @@ footer{
 @media only screen and (max-width: 600px) {
   #icon{
     position: relative;
-    left: 10px;
+    left: 14px;
   }
   .container {
     padding: 15px 12px;
